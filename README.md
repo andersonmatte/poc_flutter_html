@@ -23,7 +23,7 @@ A biblioteca `flutter_html` permite exibir código HTML com suporte a:
 
 ---
 
-![Capa da PoC](https://github.com/andersonmatte/poc_html_viewer/blob/master/assets/prints/printhtml.png)
+![Capa da PoC](https://raw.githubusercontent.com/andersonmatte/poc_flutter_html/refs/heads/master/assets/prints/printhtml.png)
 
 ## Como usar
 
