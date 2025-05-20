@@ -28,10 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(
-          'PoC Flutter HTML',
-          style: TextStyle(color: Colors.white),
-        ),
+        title: Text('PoC Flutter HTML', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.deepOrangeAccent,
       ),
       body:

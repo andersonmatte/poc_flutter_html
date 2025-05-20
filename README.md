@@ -1,16 +1,34 @@
-# poc_flutter_html
+# PoC Flutter HTML
 
-PoC Flutter HTML
+Este projeto demonstra como utilizar a biblioteca [`flutter_html`](https://pub.dev/packages/flutter_html) para renderizar conteúdo HTML diretamente em um aplicativo Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Funcionalidade
 
-A few resources to get you started if this is your first Flutter project:
+A biblioteca `flutter_html` permite exibir código HTML com suporte a:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Estilização com CSS inline.
+- Tags HTML como `h1`, `p`, `div`, `strong`, `img`, entre outras.
+- Renderização de imagens, listas e links.
+- Compatibilidade com conteúdo formatado dinamicamente.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Estrutura da PoC
+
+- `main.dart`: inicia o app com a tela de splash.
+- `splash_screen.dart`: exibe uma imagem de splash do Proboscis Monkey.
+- `home_screen.dart`: exibe o conteúdo HTML com título, parágrafo, imagem central e uma caixa com dados formatados.
+
+---
+
+![Capa da PoC](https://github.com/andersonmatte/poc_html_viewer/blob/master/assets/prints/printhtml.png)
+
+## Como usar
+
+1. Adicione a dependência no seu `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter_html: ^3.0.0-beta.2
